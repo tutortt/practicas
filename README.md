@@ -50,19 +50,20 @@ Cada participante debe elegir, o se le asignará, una *issue* que deberá comple
 
 ---
 
-## Labels recomendados
-Para organizar las *issues* y *pull requests* en GitHub se pueden usar las siguientes etiquetas:
-
-| Label              | Descripción                                   | Emoji |
-|--------------------|-----------------------------------------------|-------|
-| `bug`              | Reporte de errores en el proyecto             | 🐛    |
-| `enhancement`      | Nuevas funcionalidades o mejoras              | ✨    |
-| `documentation`    | Cambios en la documentación                   | 📖    |
-| `help wanted`      | Se necesita apoyo en una tarea                 | 🙋    |
-| `good first issue` | Tareas sencillas para principiantes            | 🌱    |
-| `question`         | Dudas o preguntas sobre el proyecto            | ❓    |
-| `priority: high`   | Tareas urgentes que deben resolverse pronto    | 🔥    |
-| `UI/UX`            | Mejoras en diseño o experiencia de usuario     | 🎨    |
+## Labels sugeridos
+- `HTML` → Tareas relacionadas con estructura en **HTML**.  
+- `CSS` → Tareas de **estilo y diseño**.  
+- `JavaScript` → Funcionalidad e interactividad.  
+- `UI` → Mejoras en la **interfaz de usuario**.  
+- `UX` → Experiencia del usuario.  
+- `Forms` → Formularios y validación.  
+- `Content` → Secciones con contenido.  
+- `Performance` → Optimización de recursos.  
+- `Accessibility` → Mejora de accesibilidad web.  
+- `Review` → Revisión general.  
+- `beginner` → Recomendado para principiantes.  
+- `Feature` → Nueva funcionalidad.  
+- `Assets` → Imágenes y recursos.  
 
 ---
 
@@ -71,13 +72,13 @@ Se recomienda usar la convención **Conventional Commits** para mantener un hist
 
 | Tipo       | Uso                                                   | Ejemplo de commit                                              |
 |------------|-------------------------------------------------------|----------------------------------------------------------------|
-| `feat`     | Nueva funcionalidad                                   | `feat: agregar sección de proyectos al portafolio ✨`           |
-| `fix`      | Corrección de errores                                 | `fix: corregir error en el enlace de contacto 🐛`              |
-| `docs`     | Cambios en la documentación                           | `docs: actualizar instrucciones de instalación en README 📖`   |
-| `style`    | Cambios de formato sin alterar funcionalidad          | `style: aplicar formato con Prettier al archivo styles.css 🎨` |
-| `refactor` | Reestructuración del código sin cambiar funcionalidad | `refactor: simplificar función de validación en script.js 🔄`  |
-| `test`     | Agregar o modificar pruebas                           | `test: agregar pruebas unitarias para validar formulario ✅`   |
-| `chore`    | Tareas de mantenimiento o configuración               | `chore: actualizar dependencias de npm 🔧`                     |
+| `feat`     | Nueva funcionalidad                                   | `feat: agregar sección de proyectos al portafolio `           |
+| `fix`      | Corrección de errores                                 | `fix: corregir error en el enlace de contacto `              |
+| `docs`     | Cambios en la documentación                           | `docs: actualizar instrucciones de instalación en README `   |
+| `style`    | Cambios de formato sin alterar funcionalidad          | `style: aplicar formato con Prettier al archivo styles.css ` |
+| `refactor` | Reestructuración del código sin cambiar funcionalidad | `refactor: simplificar función de validación en script.js `  |
+| `test`     | Agregar o modificar pruebas                           | `test: agregar pruebas unitarias para validar formulario `   |
+| `chore`    | Tareas de mantenimiento o configuración               | `chore: actualizar dependencias de npm `                     |
 
 ---
 
