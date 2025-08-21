@@ -97,3 +97,12 @@ header {
 #about h2 {
     margin-bottom: 1rem;
 }
+
+.profile-pic {
+    width: 150px;        /* Ancho fijo */
+    height: 150px;       /* Alto fijo */
+    border-radius: 50%;  /* Foto redonda */
+    float: left;         /* Se alinea a la izquierda */
+    margin-right: 1rem;  /* Espacio con el texto */
+    object-fit: cover;   /* Recorta la imagen sin deformarla */
+}
