@@ -10,11 +10,15 @@ El objetivo es que los participantes del taller aprendan a usar **Git y GitHub**
 - **script.js**: Funciones JavaScript para interactividad.  
 
 ## Cómo contribuir
-1. Hacer *fork* del repositorio (si es individual) o clonar el repo.  
-2. Crear una rama nueva para la tarea asignada.  
-3. Trabajar en la función o sección asignada.  
-4. Abrir un *Pull Request* para revisión.  
-5. Gestionar *feedback* y hacer *merge* tras aprobación.  
+
+1. Hacer *fork* del repositorio (para proyectos individuales) o clonar el repositorio si se trabaja en equipo.
+2. Antes de comenzar, actualizar la rama principal con `git pull origin main` para evitar conflictos futuros.
+3. Crear una rama nueva para la tarea asignada con un nombre descriptivo (ejemplo: `feature/navbar-responsive`).
+4. Realizar los cambios y hacer commits claros siguiendo la convención establecida.
+5. Abrir un *Pull Request* describiendo los cambios realizados.
+6. Atender la retroalimentación y realizar correcciones si es necesario.
+7. Una vez aprobado, el Pull Request se fusiona y se elimina la rama.
+
 
 ## Gestión de Tareas
 Las tareas se organizan como *issues* en GitHub.  
@@ -76,3 +80,67 @@ Se recomienda usar la convención **Conventional Commits** para mantener un hist
 | `chore`    | Tareas de mantenimiento o configuración               | `chore: actualizar dependencias de npm 🔧`                     |
 
 ---
+
+# Tareas del Proyecto
+
+Este proyecto está dividido en **20 tareas pequeñas**, pensadas para completarse cada una.  
+El objetivo es que todos los participantes puedan trabajar en paralelo sin depender de que otra tarea esté terminada.  
+
+---
+
+## Archivos principales
+- `index.html` → estructura del sitio web  
+- `styles.css` → estilos generales y diseño  
+- `script.js` → interactividad y validaciones  
+
+---
+
+## Lista de Tareas
+
+| #  | Tarea | Archivos a modificar/crear |
+|----|-------|-----------------------------|
+| 1  | Crear estructura básica del sitio (doctype, head, body, links a CSS y JS) | `index.html` |
+| 2  | Definir estilos globales (tipografía, márgenes, colores base) | `styles.css` |
+| 3  | Diseñar el header con logo y menú de navegación | `index.html`, `styles.css` |
+| 4  | Aplicar estilos responsivos al header | `styles.css` |
+| 5  | Desarrollar la sección "Sobre mí" (`About`) con texto | `index.html` |
+| 6  | Agregar foto de perfil en About y ajustarla con estilos | `index.html`, `styles.css` |
+| 7  | Crear la sección de "Habilidades" (`Skills`) con lista simple | `index.html` |
+| 8  | Estilizar Skills con barras de progreso | `styles.css` |
+| 9  | Implementar la sección de Proyectos con enlaces a repositorios | `index.html` |
+| 10 | Aplicar diseño en cuadrícula a la sección Proyectos | `styles.css` |
+| 11 | Crear la sección de Contacto con formulario básico | `index.html` |
+| 12 | Dar estilo al formulario de Contacto | `styles.css` |
+| 13 | Validar el formulario con JavaScript básico | `script.js` |
+| 14 | Añadir animaciones con CSS (ej: sección About) | `styles.css` |
+| 15 | Crear el footer con información básica | `index.html`, `styles.css` |
+| 16 | Añadir enlaces a redes sociales en el footer | `index.html` |
+| 17 | Implementar botón para descargar CV en PDF | `index.html` |
+| 18 | Optimizar imágenes (ajustar tamaños y peso) | Carpeta `/img` |
+| 19 | Agregar modo oscuro / claro con toggle | `styles.css`, `script.js` |
+| 20 | Mejorar accesibilidad (aria-labels, contraste de colores) | `index.html`, `styles.css` |
+
+---
+
+## Flujo de trabajo en GitHub
+
+1. Cada tarea será publicada como una **Issue**.  
+2. Cada participante debe:  
+   - Asignarse una tarea o recibirla.  
+   - Crear una rama con el nombre de la tarea (ej: `feature/about-section`).  
+   - Subir sus cambios.  
+   - Abrir un Pull Request.  
+   - Esperar la revisión y aprobación antes de hacer *merge*.  
+
+---
+
+## Flujo de trabajo en GitHub Projects (Kanban)
+
+Para organizar el avance del proyecto se recomienda usar un **tablero estilo Kanban** en GitHub Projects, con las siguientes columnas:
+
+- **Por hacer (To Do)** → Tareas pendientes (issues recién creadas o asignadas).  
+- **En progreso (In Progress)** → Tareas en las que el participante ya está trabajando.  
+- **Hecho (Done)** → Tareas completadas, revisadas y fusionadas en la rama principal.  
+
+Ejemplo visual del flujo:  
+[ Por hacer ] → [ En progreso ] → [ Hecho ]
