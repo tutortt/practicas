@@ -1,13 +1,141 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.jv" defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Por favor revisar bien lo que hacen-->
+
+  <!-- HEADER -->
+<header>
+  <div class="container navbar">
+    <!-- Logo rectangular -->
+    <img src="logo.png" alt="Logo personal" class="logo" />
+
+    <ul class="nav-links">
+      <li><a href="#about">Sobre mí</a></li>
+      <li><a href="#skills">Habilidades</a></li>
+      <li><a href="#projects">Proyectos</a></li>
+      <li><a href="#contact">Contacto</a></li>
+    </ul>
+
+    <button id="darkToggle" class="toggle-btn">🌙</button>
+  </div>
+</header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container">
+      <h2>¡Hola! Soy Soe Lucas</h2>
+      <p>Bienvenido a mi portafolio digital personal</p>
+      <a href="cv.pdf" download>
+        <button>Descargar CV</button>
+      </a>
+    </div>
+  </section>
+
+  <hr>
+
+  <!-- ABOUT -->
+<section id="about" class="about container">
+  <h2>Sobre mí</h2>
+  <!-- Foto circular -->
+  <img src="mi.jpeg" alt="Foto personal" class="profile-pic" />
+  <p>
+    Soy un profesional de desarrollo web fullstack frontend-heavy con un año de experiencia. Me apasiona aprender nuevas tecnologías, frameworks, sistema de bases de datos.
+    Tengo experiencia laboral como junior, además de proyectos académicos, voluntariado y personales con el stack HTML, CSS, JS, además de Git y GitHub, Node.js, Express.js y MongoDB. Sientete libre de explorar mi experiencia y proyectos en este portafolio. Estoy listo para contribuir en proyectos de mediana y alta complejidad, por lo tanto, contáctame y podemos llegar a un acuerdo juntos.
+  </p>
+  <br>
+</section>
+
+  <hr>
+
+  <!-- SKILLS -->
+  <section id="skills" class="container">
+    <h2>Habilidades</h2>
+    <ul class="skills-list">
+      <li>HTML
+        <div class="progress-bar"><div class="progress" style="width:95%"></div></div>
+      </li>
+      <li>CSS
+        <div class="progress-bar"><div class="progress" style="width:85%"></div></div>
+      </li>
+      <li>JavaScript
+        <div class="progress-bar"><div class="progress" style="width:75%"></div></div>
+      </li>
+      <li>Git y GitHub
+        <div class="progress-bar"><div class="progress" style="width:90%"></div></div>
+      </li>
+      <li>Node.js
+        <div class="progress-bar"><div class="progress" style="width:75%"></div></div>
+      </li>
+      <li>Express.js
+        <div class="progress-bar"><div class="progress" style="width:80%"></div></div>
+      </li>
+      <li>MongoDB
+        <div class="progress-bar"><div class="progress" style="width: 75%"></div></div>
+      </li>
+    </ul>
+  </section>
+  <br>
+  <hr>
+
+  <!-- PROJECTS -->
+<section id="projects" class="projects container">
+  <h2>Proyectos</h2>
+  <div class="projects-grid">
+    <div class="project-card">
+      <h3>Gestión de Tareas</h3>
+      <p>Aplicación web con Node.js y Express para organizar tareas.</p>
+      <a href="https://github.com/soelucas515" target="_blank">Ver repositorio</a>
+    </div>
+
+    <div class="project-card">
+      <h3>Portafolio Personal</h3>
+      <p>Proyecto web con HTML, CSS y JavaScript, desplegado en GitHub Pages.</p>
+      <a href="https://github.com/soelucas515" target="_blank">Ver repositorio</a>
+    </div>
+
+    <div class="project-card">
+      <h3>API Clima</h3>
+      <p>API REST que consulta datos meteorológicos y los muestra en frontend.</p>
+      <a href="https://github.com/soelucas515" target="_blank">Ver repositorio</a>
+    </div>
+
+    <div class="project-card">
+      <h3>E-commerce Demo</h3>
+      <p>Tienda online con carrito, autenticación y base de datos MongoDB.</p>
+      <a href="https://github.com/soelucas515" target="_blank">Ver repositorio</a>
+    </div>
+  </div>
+  <br>
+</section>
+
+  <hr>
+
+  <!-- CONTACT -->
+  <section id="contact" class="container">
+    <h2>Contacto</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Nombre" required>
+      <input type="email" id="email" placeholder="Correo" required>
+      <textarea id="message" rows="4" placeholder="Mensaje" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <hr>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 Mi Portafolio | Sígueme en 
+      <a href="https://github.com/soelucas515">GitHub</a> · 
+      <a href="https://www.linkedin.com/in/lucassoe/">LinkedIn</a>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
